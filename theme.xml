@@ -1,0 +1,54 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+<feature supported="carousel">
+</feature>
+
+
+
+<include subset="Main Menu" name="Option A-1">./main1.xml</include>
+<include subset="Main Menu" name="Option A-2">./main2.xml</include>
+<include subset="Main Menu" name="Option A-3">./main3.xml</include>
+<include subset="Main Menu" name="Option A-4">./main4.xml</include>
+<include subset="Main Menu" name="Option A-5">./main5.xml</include>
+<include subset="Main Menu" name="Option A-6">./main6.xml</include>
+<include subset="Main Menu" name="Option B-1">./main7.xml</include>
+<include subset="Main Menu" name="Option B-2">./main8.xml</include>
+<include subset="Main Menu" name="Option B-3">./main9.xml</include>
+<include subset="Main Menu" name="Option B-4">./main10.xml</include>
+<include subset="Main Menu" name="Option B-5">./main11.xml</include>
+<include subset="Main Menu" name="Option B-6">./main12.xml</include>
+<include subset="Video View" name="Option 1">./video1.xml</include>
+<include subset="Video View" name="Option 2">./video2.xml</include>
+<include subset="Video View" name="Option 3">./video3.xml</include>
+<include subset="Carousel View" name="Option 1">./carousel1.xml</include>
+<include subset="Carousel View" name="Option 2">./carousel2.xml</include>
+<include subset="Carousel View" name="Option 3">./carousel3.xml</include>
+<include subset="Detailed View" name="Option 1">./detailed1.xml</include>
+<include subset="Detailed View" name="Option 2">./detailed2.xml</include>
+<include subset="Detailed View" name="Option 3">./detailed3.xml</include>
+<include subset="Grid View" name="Option 1">./grid1.xml</include>
+<include subset="Grid View" name="Option 2">./grid2.xml</include>
+<include subset="Grid View" name="Option 3">./grid3.xml</include>
+<include subset="Basic View" name="Option 1">./basic1.xml</include>
+<include subset="Basic View" name="Option 2">./basic2.xml</include>
+
+
+   <view name="system">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.035</fontSize>     
+         <pos>0.01 0.95</pos>		 
+         <textColor>1a92d6</textColor>
+         <iconColor>1a92d6</iconColor>
+      </helpsystem>
+   </view>  
+ 
+</theme>

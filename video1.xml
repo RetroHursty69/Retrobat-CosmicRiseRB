@@ -1,0 +1,202 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+   <view name="video">
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/OpenSans-Semibold.ttf</fontPath>
+         <fontSize>0.0175</fontSize>     
+         <pos>0.01 0.884</pos>      
+         <textColor>1a92d6</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  
+      <textlist name="gamelist">
+         <zIndex>49</zIndex>	      
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>ffffff</selectedColor>     
+         <pos>0.0183 0.036</pos>
+         <size>0.28 0.78</size>
+         <primaryColor>1a92d6</primaryColor>
+         <secondaryColor>1a92d6</secondaryColor>
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </textlist>
+	  
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>1a92d6</color>
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.3 0.66</pos>
+         <size>0.2 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                 
+      </text>
+      <rating name="md_rating">
+         <zIndex>5</zIndex>       
+         <pos>0.57 0.538</pos>
+         <size>0.048 0.048</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+         <zIndex>50</zIndex>         
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.33 0.5</pos>
+         <size>0.1 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.4 0.5</pos>
+         <size>0.0375 0.02</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.33 0.53</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.4 0.53</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.45 0.5</pos>
+         <size>0.1 0.02</size>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.5 0.5</pos>
+         <size>0.19 0.02</size>
+         <color>ffffff</color>         
+         <zIndex>5</zIndex>         
+      </text>         
+      <text name="md_lbl_playcount">
+         <pos>1.7 0.685</pos>
+         <size>0.2 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_playcount">
+         <pos>1.8 0.685</pos>
+         <size>0.0375 0.035</size>
+         <color>F3E804</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_publisher">
+         <pos>1.3 0.51</pos>
+         <size>0.1 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_publisher">
+         <pos>1.39 0.51</pos>
+         <size>0.12 0.035</size>
+         <color>F3E804</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>1.3 0.56</pos>
+         <size>0.1 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.39 0.56</pos>
+         <size>0.12 0.035</size>
+         <color>F3E804</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>0.33 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.43 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </datetime>                            
+      <text name="md_description">
+         <fontSize>0.02</fontSize>      
+         <pos>0.326 0.64</pos>
+         <size>0.4 0.16</size>
+         <color>ffffff</color>
+         <alignment>center</alignment>   
+         <zIndex>43</zIndex>         
+      </text>
+
+     <image name="background20" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/viewbottom.png</path>
+         <zIndex>1</zIndex>          
+      </image>
+     <image name="background21" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/video11.png</path>
+         <zIndex>2</zIndex>          
+      </image>
+     <image name="background22" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/video12.png</path>
+         <zIndex>2</zIndex>          
+      </image>		  
+      <image name="logo">
+         <origin>0.0 0.0</origin> 
+         <path>./_inc/system1.png</path>		 
+         <pos>0.725 0.095</pos>
+         <maxSize>0.81 0.81</maxSize>
+         <zIndex>47</zIndex> 
+		<storyboard>
+		  <animation property="offsetY" from="0" to="0.095" begin="0" duration="1000" mode="linear"/>			  
+		  <animation property="opacity" from="0" to="1" duration="1000" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="1000" duration="300" mode="easeOut"/>
+	      <animation property="scale" from="1.05" to="1" begin="1300" duration="300" mode="easeOut"/>
+		</storyboard>		 
+      </image>   
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.524 0.25</pos>
+         <maxSize>0.44 0.36</maxSize>
+         <zIndex>6</zIndex>
+         <delay>1.0</delay> 
+        <roundCorners>0.01</roundCorners> 		 
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>                          
+      </video>         
+      <image name="md_marquee">
+         <pos>0.9 0.093</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.12 0.1</maxSize>
+         <zIndex>7</zIndex>         
+      </image>           	  
+	  
+</view>
+
+ 
+</theme>

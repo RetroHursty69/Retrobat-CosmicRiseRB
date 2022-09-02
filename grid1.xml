@@ -1,0 +1,151 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+   <view name="grid">
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.019</fontSize>     
+         <pos>0.025 0.955</pos>      
+         <textColor>1a92d6</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+
+     <image name="header" extra="true">
+       <pos>0.04 0.005</pos>
+        <size>0.26 0.13</size>		
+        <path>./_inc/system2.png</path>
+        <zIndex>400</zIndex>
+		<storyboard>
+		  <animation property="offsetY" from="-0.1" to="0.005" begin="0" duration="1800" mode="linear"/>		
+		  <animation property="opacity" from="0" to="1" duration="1800" mode="easeIn"/>
+          <animation property="scale" from="0" to="1" duration="1800" mode="easeOut"/> 
+		</storyboard>		 
+	   </image>	
+	  
+   	<image name="system-background" extra="true">	
+       <path>./_inc/images/main1.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex> 		 
+    </image>
+   	<image name="system-background2" extra="true">	
+       <path>./_inc/images/grid1.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>2</zIndex> 		 
+    </image>	
+   	<image name="system-background3" extra="true">	
+       <path>./_inc/images/main3.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>5</zIndex>
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="450" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="250" mode="easeOut"/>
+        </storyboard> 		 
+    </image>
+   	<image name="system-background4" extra="true">	
+       <path>./_inc/images/main4.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>6</zIndex> 		 
+    </image>
+   	<image name="system-background5" extra="true">	
+       <path>./_inc/system5.png</path>	
+         <pos>0.91 -0.01</pos>
+         <size>0.07 0.18</size>
+         <zIndex>10</zIndex> 		 
+    </image>	
+	  
+      <video name="md_video">
+        <visible>true</visible>	 	 
+        <rotation>0</rotation>  
+        <roundCorners>0.02</roundCorners>             
+        <pos>0.008 0.18</pos>
+        <origin>0 0</origin>
+        <size>0.54 0.72</size>
+        <color>FFFFFF</color>
+        <zIndex>4</zIndex>
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="550" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+        </storyboard>	              
+      </video>	  
+	 
+    <imagegrid name="gamegrid">
+	  <margin>0.024 0.024</margin>
+      <pos>0.556 0.17</pos>
+      <size>0.44 0.74</size>
+      <padding>0.01 0.01 0.01 0.01</padding>
+      <zIndex>100</zIndex>
+      <autoLayout>3 3</autoLayout>
+      <autoLayoutSelectedZoom>1.25</autoLayoutSelectedZoom>
+      <animateSelection>true</animateSelection>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <scrollSound></scrollSound>
+	  <scrollDirection>vertical</scrollDirection>
+	  <scale>0</scale>
+	  <storyboard>
+	 <animation property="scale" from="0" to="1" begin="1200" duration="350" mode="EaseOut"/>
+      </storyboard>
+	</imagegrid>
+	  
+      <image name="md_marquee">
+         <pos>0.42 0.07</pos>
+         <size>0.1 0.09</size>
+         <zIndex>450</zIndex>
+		<storyboard>
+        <animation property="scale" to="1.04" begin="600" autoreverse="true" duration="1400" repeat="forever" mode="easyIn"/>
+		<animation property="rotation" from= "-1" to="1" begin="600" autoreverse="true" duration="1400" repeat="forever" mode="easyIn"/>
+		</storyboard>		 
+      </image>
+ 
+<gridtile name="default">
+<padding>1 1</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+<reflexion>0.09 0.0</reflexion>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>ff000000</backgroundCenterColor>
+<backgroundEdgeColor>ff000000</backgroundEdgeColor>
+<padding>25 10</padding>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<text name="gridtile">
+<color>1C00ff00</color>
+<backgroundColor>00000000</backgroundColor>
+<fontSize>0.022</fontSize>
+<alignment>center</alignment>
+<size>1 0.24</size>
+</text>
+
+<text name="gridtile_selected">
+<color>1C00ff00</color>
+<glowColor>ffffff</glowColor>
+<glowSize>0</glowSize>
+</text>
+	
+	
+      <image name="logo">
+	           <pos>1.55 0.87</pos>
+         <origin>0.0 0.0</origin>      
+      </image>	         	  
+	  
+</view>
+
+ 
+</theme>

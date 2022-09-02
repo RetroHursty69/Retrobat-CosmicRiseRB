@@ -1,0 +1,83 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+   <view name="basic">
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.019</fontSize>     
+         <pos>0.025 0.95</pos>      
+         <textColor>1a92d6</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  
+      <textlist name="gamelist">
+         <zIndex>49</zIndex>	      
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>ffffff</selectedColor>     
+         <pos>0.2 0.036</pos>
+         <size>0.6 0.87</size>
+         <primaryColor>1a92d6</primaryColor>
+         <secondaryColor>1a92d6</secondaryColor>
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </textlist>
+	  
+     <image name="background20" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/viewbottom.png</path>
+         <zIndex>1</zIndex>          
+      </image>
+     <image name="background21" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/basic2.png</path>
+         <zIndex>2</zIndex>          
+      </image>
+	  
+      <image name="logo">
+       <pos>0.15 0.22</pos>
+        <size>0.26 0.13</size>		
+        <path>./_inc/system2.png</path>
+        <zIndex>400</zIndex>
+		<rotation>-90</rotation>
+		<storyboard>
+		  <animation property="offsetY" from="0.1" to="0.22" begin="0" duration="4000" mode="linearSmooth"/>		
+		  <animation property="opacity" from="0" to="1" duration="3000" mode="easeIn"/>
+          <animation property="scale" from="0" to="1" duration="3000" mode="easeOut"/> 
+		  <animation property="opacity" from="1" to="0.3" duration="2000"  begin="5000" duration="2000" mode="easeOut"/> 
+		</storyboard>		 
+      </image> 
+	  
+     <image name="logo2" extra="true">
+       <pos>0.72 0.22</pos>
+        <size>0.26 0.13</size>		
+        <path>./_inc/system2.png</path>
+        <zIndex>400</zIndex>
+		<rotation>90</rotation>
+		<storyboard>
+		  <animation property="offsetY" from="0.1" to="0.22" begin="0" duration="4000" mode="linearSmooth"/>			
+		  <animation property="opacity" from="0" to="1" duration="3000" mode="easeIn"/>
+          <animation property="scale" from="0" to="1" duration="3000" mode="easeOut"/> 
+		  <animation property="opacity" from="1" to="0.3" duration="2000"  begin="5000" duration="2000" mode="easeOut"/> 
+		</storyboard>		 
+	   </image>                 	  
+	  
+</view>
+
+ 
+</theme>

@@ -1,0 +1,69 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+   <view name="basic">
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.019</fontSize>     
+         <pos>0.025 0.95</pos>      
+         <textColor>1a92d6</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  
+      <textlist name="gamelist">
+         <zIndex>49</zIndex>	      
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>ffffff</selectedColor>     
+         <pos>0.0183 0.036</pos>
+         <size>0.617 0.88</size>
+         <primaryColor>1a92d6</primaryColor>
+         <secondaryColor>1a92d6</secondaryColor>
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </textlist>
+	  
+     <image name="background20" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/viewbottom.png</path>
+         <zIndex>1</zIndex>          
+      </image>
+     <image name="background21" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/basic1.png</path>
+         <zIndex>2</zIndex>          
+      </image>		  
+      <image name="logo">
+         <origin>0.0 0.0</origin> 
+         <path>./_inc/system1.png</path>		 
+         <pos>0.675 0.01</pos>
+         <maxSize>0.89 0.89</maxSize>
+         <zIndex>47</zIndex> 
+		<storyboard>
+		  <animation property="offsetY" from="0" to="0.02" begin="0" duration="1000" mode="linear"/>			  
+		  <animation property="opacity" from="0" to="1" duration="1000" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="1000" duration="300" mode="easeOut"/>
+	      <animation property="scale" from="1.05" to="1" begin="1300" duration="300" mode="easeOut"/>
+		</storyboard>		 
+      </image>   
+                 	  
+	  
+</view>
+
+ 
+</theme>

@@ -1,0 +1,32 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+<!--
+Carousel wheel and main menu background
+-->
+
+<feature supported="carousel">
+   <view name="system">
+     <image name="header" extra="true">
+        <pos>0.135 0.005</pos>
+        <size>0.26 0.13</size>		
+        <path>./_inc/system2.png</path>
+        <zIndex>400</zIndex>
+		<storyboard>
+		  <animation property="offsetY" from="-0.1" to="0.012" begin="0" duration="700" mode="linear"/>		
+		  <animation property="opacity" from="0" to="1" duration="700" mode="easeIn"/>
+          <animation property="scale" from="0" to="1" duration="700" mode="easeOut"/> 
+		</storyboard>	
+	   </image>	   		 
+   </view>
+</feature>
+
+ 
+</theme>

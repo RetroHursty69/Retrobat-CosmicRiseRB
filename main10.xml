@@ -1,0 +1,117 @@
+<!--
+theme name:     Cosmic Rise RB! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system">
+     <image name="logo">
+       <linearSmooth>true</linearSmooth>
+	   <path>./_inc/images/wheel_default.png</path>
+	   <path>./${system.theme}/_inc/system3.png</path>  
+	   </image>    
+
+     <image name="header" extra="true">
+       <pos>0.035 0.23</pos>
+        <size>0.26 0.13</size>		
+        <path>./_inc/system2.png</path>
+        <zIndex>400</zIndex>
+		<rotation>-90</rotation>
+		<storyboard>
+		  <animation property="offsetY" from="0.1" to="0.23" begin="0" duration="4000" mode="linearSmooth"/>		
+		  <animation property="opacity" from="0" to="1" duration="3000" mode="easeIn"/>
+          <animation property="scale" from="0" to="1" duration="3000" mode="easeOut"/> 
+		  <animation property="opacity" from="1" to="0.3" duration="2000"  begin="5000" duration="2000" mode="easeOut"/> 
+		</storyboard>		 
+	   </image>	 	   
+
+    <image name="header2" extra="true">
+       <pos>0.8 0.29</pos>
+        <size>0.185 0.48</size>		
+        <path>./_inc/system5.png</path>
+        <zIndex>400</zIndex>
+		<storyboard>
+		  <animation property="offsetY" from="0.19" to="0.29" begin="0" duration="2000" mode="linear"/>			  
+		  <animation property="opacity" from="0" to="1" duration="2000" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="2000" autoreverse="true" duration="1500" repeat="forever" mode="easeOut"/>
+		</storyboard>		 
+	   </image>	
+	   
+	 <video name="system-video1" extra="true">
+        <default>./_inc/videos/_static.mp4</default>
+        <path>{random}</path>  		
+        <visible>true</visible>	 	 
+        <rotation>0</rotation>  
+        <roundCorners>0.02</roundCorners>             
+        <pos>0.208 0.12</pos>
+        <origin>0 0</origin>
+        <size>0.585 0.785</size>
+        <color>FFFFFF</color>
+        <zIndex>5</zIndex>
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="3500" mode="easeIn"/>
+        </storyboard>		
+     </video>  	 
+      <text name="systemInfo">     
+         <pos>0.32 0.03</pos>
+		 <origin>0 0</origin>
+         <backgroundColor>00000000</backgroundColor>
+         <color>1a92d6</color>	 
+         <fontPath>./_inc/fonts/moonhouse.ttf</fontPath>
+	     <fontSize>0.085</fontSize>
+         <zIndex>10</zIndex>
+         <alignment>left</alignment>
+      <glowColor>70c9fb</glowColor>
+      <glowSize>5</glowSize>	  
+      </text>
+  	<image name="system-background" extra="true">	
+       <path>./_inc/images/main1.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex> 		 
+    </image>	  
+   	<image name="system-background4" extra="true">	
+       <path>./_inc/images/main43.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>3</zIndex> 		 
+    </image>	
+   	<image name="system-background6" extra="true">	
+       <path>./_inc/images/main13.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>4</zIndex>
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="2500" mode="easeIn"/>
+        </storyboard> 		 
+    </image>
+   	<image name="system-background7" extra="true">	
+       <path>./_inc/images/main33.png</path>	
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>6</zIndex>
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="3500" mode="easeIn"/>
+        </storyboard> 		 
+    </image>	
+	  <carousel name="systemcarousel">
+          <zIndex>2</zIndex>
+          <logoScale>1.01</logoScale>	      
+          <type>horizontal</type>
+          <pos>-0.16 0.113</pos>
+          <size>1.32 0.86</size>
+          <logoSize>0.75 0.758</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>11</maxLogoCount>
+          <logoAlignment>center</logoAlignment>		  
+         </carousel>				 
+   </view>
+</feature>
+ 
+</theme>
