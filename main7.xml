@@ -23,10 +23,10 @@ version         1.0
         <path>./_inc/system3.png</path>
         <zIndex>400</zIndex>
 		<storyboard>
-		  <animation property="offsetY" from="0" to="0.081" begin="0" duration="2200" mode="linear"/>			  
-		  <animation property="opacity" from="0" to="1" duration="2500" mode="easeIn"/>
-	      <animation property="scale" from="1" to="1.05" begin="2500" duration="300" mode="easeOut"/>
-	      <animation property="scale" from="1.05" to="1" begin="2800" duration="300" mode="easeOut"/>
+		  <animation property="offsetY" from="0" to="0.081" begin="0" duration="3500" mode="linear"/>			  
+		  <animation property="opacity" from="0" to="1" duration="3800" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="3500" duration="300" mode="easeOut"/>
+	      <animation property="scale" from="1.05" to="1" begin="3800" duration="300" mode="easeOut"/>
 		</storyboard>		 
 	   </image>	 	   
 
@@ -43,7 +43,7 @@ version         1.0
         <color>FFFFFF</color>
         <zIndex>5</zIndex>
         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="3500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="5000" mode="easeIn"/>
         </storyboard>		
      </video>  	 
       <text name="systemInfo">     
@@ -76,7 +76,7 @@ version         1.0
          <size>1 1</size>
          <zIndex>4</zIndex>
         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="2500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="4500" mode="easeIn"/>
         </storyboard> 		 
     </image>
    	<image name="system-background7" extra="true">	
@@ -85,7 +85,7 @@ version         1.0
          <size>1 1</size>
          <zIndex>6</zIndex>
         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="3500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="4500" mode="easeIn"/>
         </storyboard> 		 
     </image>	
 	  <carousel name="systemcarousel">
